@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Página 1</title>
 </head>
 <body>
     <h1>Usando links externos</h1>
@@ -15,12 +15,18 @@
     <h1>Usando links internos</h1>
     <p>
         Esta é a primeira página do site. Se você quiser, pode acessar também a minha
-        <a href="file:///C:/Users/aluno/roqueatv3/Aula12/ex1.html">segunda página</a>
+        <a href="ex3.html" rel="next" target="_self">segunda página</a>
     </p>
+    <p>
+        Você também pode acessar a nossa
+        <a href="noticias/noticia.html" rel="next" target="_self">página de notícia</a>
+    </p>
+    <h1>Usando links internos</h1>
+    <p>Esta é a primeira página do site. Se você quiser, pode acessar a minha <a href="ex1.html" rel="next" target="_self">segunda página</a></p>
     <h1>Links para download</h1>
     <ul>
-        <li><a href="files/livro.pdf" download="livro.pdf" type="application/pdf">Baixar o livro em PDF</a></li>
-        <li><a href="files/livro.zip"></a></li>
+        <li><a href="livro/livro.pdf" download="livro.pdf" type="application/pdf">Livro em PDF</a></li>
+        <li><a href="livro/livro.zip" download="livro.zip" type="application/zip">Livro compactado em ZIP</a></li>
     </ul>
 </body>
 </html>
